@@ -16,7 +16,7 @@
 {if strip_tags($item.field_menu) == 'Logo left'}
 <div class="navigation default light navbar-fixed-top">
     <nav>
-        <a class="navbar-brand" href="{site_url()}"> <img class="logo-img" src="{echo siteinfo('siteinfo_logo')}?v=1.0.0" alt=""> </a>
+        <a class="navbar-brand" style="width: {strip_tags($item.field_logowidth)}px;" href="{site_url()}"> <img class="logo-img" style="max-width: {strip_tags($item.field_logowidth)}px; margin-top: {strip_tags($item.field_logotop)}" src="{$item.field_logo}?v=1.0.0" alt="LOGO"> </a>
         <button type="button" class="navbar-toggle collapsed"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="title">{echo siteinfo('siteinfo_transl-menu')}</span> </button>
 
       

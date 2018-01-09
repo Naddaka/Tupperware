@@ -5,7 +5,7 @@
         {$category = get_category(76)}
         {$item = $CI->load->module('cfcm')->connect_fields($category, 'category')}
         {if strip_tags($item.field_menu) == 'Button'}
-        <a class="logo" href="{site_url()}"> <img class="logo-img" src="{echo siteinfo('siteinfo_logo')}?v=1.0.0" alt=""> </a>
+        <a class="logo" href="{site_url()}"> <img class="logo-img" style="max-width: {strip_tags($item.field_logowidth)}px; margin-top: {strip_tags($item.field_logotop)}" src="{$item.field_logo}?v=1.0.0" alt="LOGO"> </a>
         {/if}
         <div class="slides-container">
             {$pages = category_pages('78')}
