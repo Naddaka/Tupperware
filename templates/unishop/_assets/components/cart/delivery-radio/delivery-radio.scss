@@ -1,0 +1,63 @@
+.delivery-radio {
+
+  &__field {
+    display: flex;
+
+    &:not(:first-child) {
+      padding-top: 15px;
+    }
+  }
+
+  &__control {
+    width: 20px;
+    flex-shrink: 0;
+    vertical-align: top;
+    position: relative;
+    top: -2px;
+  }
+
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__title {
+    color: #000;
+    line-height: 1.2;
+  }
+
+  &__info {
+    font-size: 0.9em;
+    position: relative;
+    margin-top: 3px;
+    color: $base-font-color-secondary;
+  }
+
+  &__spoiler{
+    padding-bottom: 20px;
+  }
+
+  &__spoiler-row {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  &__spoiler-col {
+    padding-top: 10px;
+
+    &:first-child {
+      flex-shrink: 0;
+      width: 70px;
+
+    }
+
+    &:not(:first-child) {
+      padding-left: 15px;
+      flex-grow: 1;
+    }
+
+    .select2 {
+      width: 100% !important;
+    }
+  }
+}
+

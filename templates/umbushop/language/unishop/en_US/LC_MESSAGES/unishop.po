@@ -1,0 +1,1337 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-02 07:38+0200\n"
+"PO-Revision-Date: 2017-03-02 07:38+0200\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/umbushop/shop/includes/product/product_full_info.tpl:50
+msgid "Accessories"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_kit_button.tpl:10
+msgid "Add all to cart"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_buy.tpl:34
+msgid "Add to Cart"
+msgstr ""
+
+#: templates/umbushop/shop/includes/compare/compare_button.tpl:36
+msgid "Add to compare"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:74
+msgid "Add to list"
+msgstr ""
+
+#: templates/umbushop/wishlist/button.tpl:32
+msgid "Add to Wishlist"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:5
+msgid "Add to your list"
+msgstr ""
+
+#: templates/umbushop/gallery/includes/gallery_menu.tpl:5
+#: templates/umbushop/gallery/includes/gallery_menu.tpl:7
+msgid "All categories"
+msgstr ""
+
+#: templates/umbushop/register.tpl:129
+msgid "Already Have an Account?"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:105
+msgid "Apply"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_intro.tpl:109
+msgid "Available"
+msgstr ""
+
+#: templates/umbushop/comments/comments_api.tpl:10
+msgid "Be the first to review this item. Share your rating and review so that other customers can decide if this is the right item for them."
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_intro.tpl:16
+#: templates/umbushop/shop/includes/product/product_snippet.tpl:52
+#: templates/umbushop/smart_filter/main.tpl:44
+msgid "Brand"
+msgstr ""
+
+#: templates/umbushop/shop/brands_images.tpl:6
+msgid "Brands"
+msgstr ""
+
+#: templates/umbushop/one_click_order/button.tpl:12
+#: templates/umbushop/one_click_order/form.tpl:5
+msgid "Buy in one click"
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:54
+#: templates/umbushop/callbacks/callbacks_modal.tpl:59
+msgid "Call back"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:115
+msgid "Call:"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:30
+#: templates/umbushop/includes/header_phone.tpl:17
+msgid "Callback"
+msgstr ""
+
+#: templates/umbushop/shop/includes/category/category_toolbar.tpl:71
+msgid "Card"
+msgstr ""
+
+#: templates/umbushop/includes/mobile_profile.tpl:18
+#: templates/umbushop/shop/includes/cart/cart_header.tpl:10
+msgid "Cart"
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:53
+msgid "Cart is currently empty"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:128
+msgid "Cart modal total price"
+msgstr "Total"
+
+#: templates/umbushop/includes/footer.tpl:14
+msgid "Catalog"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:8
+msgid "Category"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_cut.tpl:89
+#: templates/umbushop/wishlist/wishPopup.tpl:77
+msgid "Change list"
+msgstr ""
+
+#: templates/umbushop/change_password.tpl:6
+#: templates/umbushop/includes/footer_profile.tpl:14
+#: templates/umbushop/includes/header_profile.tpl:36
+#: templates/umbushop/includes/mobile_profile.tpl:13
+msgid "Change Password"
+msgstr ""
+
+#: templates/umbushop/nova_poshta/nova_poshta.tpl:15
+msgid "Choose your city"
+msgstr ""
+
+#: templates/umbushop/nova_poshta/nova_poshta.tpl:9
+msgid "City"
+msgstr ""
+
+#: templates/umbushop/callbacks/callbacks_modal.tpl:55
+#: templates/umbushop/feedback/feedback_modal.tpl:61
+#: templates/umbushop/found_less_expensive/modal_form.tpl:80
+#: templates/umbushop/login_popup.tpl:82
+#: templates/umbushop/one_click_order/form.tpl:92
+#: templates/umbushop/pricespy/button.tpl:52
+#: templates/umbushop/shop/includes/product/product_photo.tpl:12
+#: templates/umbushop/shop/report_appearance.tpl:46
+#: templates/umbushop/wishlist/wishlistEdit.tpl:38
+#: templates/umbushop/wishlist/wishPopup.tpl:69
+msgid "Close"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:111
+msgid "Code you entered was not valid"
+msgstr ""
+
+#: templates/umbushop/contacts.tpl:18
+#: templates/umbushop/page_full.tpl:21
+#: templates/umbushop/page_sales.tpl:117
+msgid "Comments"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:97
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:94
+msgid "Comments about your order"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:26
+#: templates/umbushop/includes/mobile_profile.tpl:28
+#: templates/umbushop/shop/includes/compare/compare_total.tpl:12
+msgid "Compare"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:113
+msgid "Confirm your order"
+msgstr ""
+
+#: templates/umbushop/register_success.tpl:10
+msgid "Congratulations! Your registration has been successful."
+msgstr ""
+
+#: templates/umbushop/includes/footer.tpl:33
+msgid "Contacts"
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:60
+#: templates/umbushop/shop/includes/cart/cart_modal.tpl:32
+msgid "Continue Shopping"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:37
+msgid "Create a new list"
+msgstr ""
+
+#: templates/umbushop/forgot_password.tpl:71
+#: templates/umbushop/includes/footer_profile.tpl:7
+#: templates/umbushop/includes/header_profile.tpl:22
+#: templates/umbushop/includes/mobile_profile.tpl:6
+#: templates/umbushop/login.tpl:74
+#: templates/umbushop/login_popup.tpl:98
+#: templates/umbushop/register.tpl:6
+#: templates/umbushop/register.tpl:121
+msgid "Create Account"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:40
+msgid "Cumulative discount"
+msgstr ""
+
+#: templates/umbushop/change_password.tpl:22
+msgid "Current password"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_full_info.tpl:37
+msgid "Customer Reviews"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/order_history.tpl:4
+msgid "Date"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_summary.tpl:18
+#: templates/umbushop/wishlist/wishlist.tpl:26
+msgid "Delete"
+msgstr ""
+
+#: templates/umbushop/shop/includes/compare/compare_products.tpl:31
+msgid "Delete item"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:84
+msgid "Description"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_full_info.tpl:7
+msgid "Details"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:51
+msgid "Discount"
+msgstr ""
+
+#: templates/umbushop/shop/profile.tpl:19
+msgid "Discount information"
+msgstr ""
+
+#: templates/umbushop/comments/comments_list.tpl:39
+msgid "Dislike"
+msgstr ""
+
+#: templates/umbushop/login.tpl:73
+#: templates/umbushop/login_popup.tpl:98
+msgid "Don't Have an Account?"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:108
+msgid "Download"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:59
+#: templates/umbushop/comments/reply_form.tpl:56
+#: templates/umbushop/feedback/feedback.tpl:32
+#: templates/umbushop/feedback/feedback_modal.tpl:26
+#: templates/umbushop/forgot_password.tpl:39
+#: templates/umbushop/found_less_expensive/modal_form.tpl:47
+#: templates/umbushop/login.tpl:33
+#: templates/umbushop/login_popup.tpl:41
+#: templates/umbushop/one_click_order/form.tpl:45
+#: templates/umbushop/one_click_order/form.tpl:50
+#: templates/umbushop/register.tpl:46
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:23
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:70
+#: templates/umbushop/shop/includes/profile/user_data.tpl:33
+#: templates/umbushop/shop/report_appearance.tpl:29
+msgid "E-mail"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:40
+#: templates/umbushop/system_bonus/user_profile.tpl:4
+msgid "Earned points"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlist.tpl:22
+msgid "Edit"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlistEdit.tpl:42
+msgid "Edit list"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlistEdit.tpl:8
+msgid "Edit your list"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:32
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:58
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:78
+msgid "Editing category"
+msgstr ""
+
+#: templates/umbushop/shop/report_appearance.tpl:50
+msgid "Email when available"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_header.tpl:16
+msgid "Empty"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:103
+msgid "Enter gift card code"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:126
+msgid "Estimated Total"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:28
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:54
+msgid "Expand Category"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_sales.tpl:27
+msgid "Expires after"
+msgstr ""
+
+#: templates/umbushop/shop/bestseller.tpl:11
+msgid "featured_products_all_deals"
+msgstr "All deals"
+
+#: templates/umbushop/shop/bestseller.tpl:16
+#: templates/umbushop/shop/bestseller.tpl:50
+msgid "featured_products_new"
+msgstr "New arrivals"
+
+#: templates/umbushop/shop/bestseller.tpl:21
+#: templates/umbushop/shop/bestseller.tpl:52
+msgid "featured_products_sales"
+msgstr "Special offers"
+
+#: templates/umbushop/shop/bestseller.tpl:26
+#: templates/umbushop/shop/bestseller.tpl:54
+msgid "featured_products_sales_bestsellers"
+msgstr "Best sellers"
+
+#: templates/umbushop/shop/bestseller.tpl:48
+msgid "featured_products_title"
+msgstr "Featured products"
+
+#: templates/umbushop/feedback/feedback.tpl:6
+#: templates/umbushop/feedback/feedback_modal.tpl:5
+#: templates/umbushop/includes/footer.tpl:49
+msgid "Feedback"
+msgstr ""
+
+#: templates/umbushop/pricespy/button.tpl:15
+#: templates/umbushop/pricespy/button.tpl:25
+#: templates/umbushop/pricespy/button.tpl:58
+#: templates/umbushop/pricespy/spys.tpl:8
+msgid "Follow price"
+msgstr ""
+
+#: templates/umbushop/pricespy/button.tpl:34
+msgid "Follow the price and we will send you an email once the product price changes"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:79
+msgid "for"
+msgstr ""
+
+#: templates/umbushop/login.tpl:75
+#: templates/umbushop/login_popup.tpl:98
+#: templates/umbushop/register.tpl:131
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/umbushop/found_less_expensive/buttonWithForm.tpl:10
+#: templates/umbushop/found_less_expensive/modal_form.tpl:5
+msgid "Found cheaper?"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_delivery_radio.tpl:40
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:34
+msgid "Free from"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_kit.tpl:2
+msgid "Frequently bought together"
+msgstr ""
+
+#: templates/umbushop/category_sales.tpl:57
+#: templates/umbushop/page_sales.tpl:66
+msgid "From"
+msgstr ""
+
+#: templates/umbushop/gallery/index.tpl:4
+msgid "Gallery"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:74
+msgid "Gift card"
+msgstr ""
+
+#: templates/umbushop/navs/mobile_nav/level_1/container.tpl:4
+msgid "Go back"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:86
+msgid "Go to wishlist"
+msgstr ""
+
+#: templates/umbushop/shop/category.tpl:22
+msgid "Hide filter"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_labels.tpl:5
+msgid "Hit"
+msgstr ""
+
+#: templates/umbushop/widgets/breadcrumbs.tpl:9
+msgid "Home"
+msgstr ""
+
+#: templates/umbushop/components/TProperties/assets/admin/main.tpl:13
+#: templates/umbushop/shop/includes/profile/order_history.tpl:3
+msgid "Id"
+msgstr ""
+
+#: templates/umbushop/includes/footer.tpl:89
+msgid "ImageCMS"
+msgstr ""
+
+#: templates/umbushop/shop/bestseller.tpl:68
+#: templates/umbushop/shop/brand.tpl:43
+#: templates/umbushop/shop/search.tpl:30
+msgid "in"
+msgstr ""
+
+#: templates/umbushop/shop/report_appearance.tpl:5
+msgid "In stock reminder"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:57
+msgid "Item successfuly added to your Wishlist!"
+msgstr ""
+
+#: templates/umbushop/widgets/mobile_langs.tpl:2
+msgid "Language"
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:10
+#: templates/umbushop/callbacks/callbacks_modal.tpl:14
+msgid "Leave a number and we will call you back"
+msgstr ""
+
+#: templates/umbushop/category_sales.tpl:40
+msgid "Left"
+msgstr ""
+
+#: templates/umbushop/comments/comments_list.tpl:26
+#: templates/umbushop/shop/includes/product/product_intro.tpl:197
+msgid "Like"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/user_data.tpl:14
+msgid "Linked accounts"
+msgstr ""
+
+#: templates/umbushop/shop/includes/category/category_toolbar.tpl:77
+msgid "List"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlistEdit.tpl:21
+msgid "List name"
+msgstr ""
+
+#: templates/umbushop/shop/includes/compare/compare_button.tpl:35
+msgid "Loading..."
+msgstr ""
+
+#: templates/umbushop/login.tpl:65
+#: templates/umbushop/login_popup.tpl:86
+msgid "Log in"
+msgstr ""
+
+#: templates/umbushop/login_popup.tpl:89
+msgid "Logining in..."
+msgstr ""
+
+#: templates/umbushop/404.tpl:14
+msgid "Main page"
+msgstr ""
+
+#: templates/umbushop/smart_filter/includes/filter_results.tpl:12
+msgid "max"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/TMenuColumn.php:179
+msgid "Menu Column"
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:43
+#: templates/umbushop/callbacks/callbacks_modal.tpl:38
+#: templates/umbushop/feedback/feedback.tpl:51
+#: templates/umbushop/feedback/feedback_modal.tpl:34
+#: templates/umbushop/found_less_expensive/modal_form.tpl:64
+#: templates/umbushop/one_click_order/form.tpl:76
+msgid "Message"
+msgstr ""
+
+#: templates/umbushop/smart_filter/includes/filter_results.tpl:12
+msgid "min"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:49
+msgid "minutes"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:92
+msgid "More than one discount type can be used for your account at the moment. You'll be offered the highest discount rate available for your order."
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:25
+#: templates/umbushop/callbacks/callbacks_modal.tpl:20
+#: templates/umbushop/comments/main_form.tpl:40
+#: templates/umbushop/comments/main_form.tpl:49
+#: templates/umbushop/comments/reply_form.tpl:38
+#: templates/umbushop/comments/reply_form.tpl:46
+#: templates/umbushop/components/TProperties/assets/admin/main.tpl:16
+#: templates/umbushop/feedback/feedback.tpl:22
+#: templates/umbushop/feedback/feedback_modal.tpl:18
+#: templates/umbushop/found_less_expensive/modal_form.tpl:31
+#: templates/umbushop/one_click_order/form.tpl:30
+#: templates/umbushop/register.tpl:37
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:13
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:62
+#: templates/umbushop/shop/includes/profile/user_data.tpl:23
+#: templates/umbushop/shop/report_appearance.tpl:20
+msgid "Name"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_labels.tpl:11
+msgid "New"
+msgstr ""
+
+#: templates/umbushop/change_password.tpl:31
+msgid "New password"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:17
+msgid "New price"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_buy.tpl:57
+#: templates/umbushop/shop/includes/product/variants/radio.tpl:36
+#: templates/umbushop/shop/includes/product/variants/select.tpl:34
+msgid "Not available"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:48
+#: templates/umbushop/shop/includes/profile/order_history.tpl:9
+msgid "Not paid"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_buy.tpl:65
+msgid "Notify when available"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_intro.tpl:26
+#: templates/umbushop/shop/includes/product/product_snippet.tpl:60
+msgid "Number"
+msgstr ""
+
+#: templates/umbushop/system_bonus/user_profile.tpl:14
+msgid "Number of points"
+msgstr ""
+
+#: templates/umbushop/shop/bestseller.tpl:63
+#: templates/umbushop/shop/brand.tpl:38
+#: templates/umbushop/shop/category.tpl:51
+#: templates/umbushop/shop/search.tpl:25
+msgid "of"
+msgstr ""
+
+#: templates/umbushop/category_sales.tpl:32
+msgid "Offer!"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:18
+msgid "Old price"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlist.tpl:46
+#: templates/umbushop/wishlist/wishlist.tpl:62
+msgid "Once added new items, you'll be able to continue shopping any time and also share the information about the purchase with your friends."
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:6
+msgid "One Step Checkout"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:15
+msgid "Open all levels"
+msgstr ""
+
+#: templates/umbushop/shop/includes/compare/compare_button.tpl:41
+msgid "Open in compare list"
+msgstr ""
+
+#: templates/umbushop/wishlist/button.tpl:35
+msgid "Open in Wishlist"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:14
+msgid "Open second level"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:116
+msgid "or"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/order_history.tpl:13
+msgid "Order"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:117
+msgid "order a callback"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:23
+msgid "Order date"
+msgstr ""
+
+#: templates/umbushop/shop/profile.tpl:57
+msgid "Order history"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:11
+msgid "Order ID"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:17
+msgid "Order status"
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:17
+#: templates/umbushop/shop/order_view.tpl:17
+msgid "Order summary"
+msgstr ""
+
+#: templates/umbushop/related_products/related_products.tpl:7
+msgid "Other colors"
+msgstr ""
+
+#: templates/umbushop/comments/comments_list.tpl:12
+#: templates/umbushop/comments/main_form.tpl:98
+#: templates/umbushop/shop/includes/product/product_rating.tpl:6
+msgid "out of 5 stars"
+msgstr ""
+
+#: templates/umbushop/404.tpl:7
+#: templates/umbushop/404.tpl:11
+msgid "Page not found!"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:10
+msgid "Paid purchases amount"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:48
+#: templates/umbushop/shop/includes/profile/order_history.tpl:9
+msgid "Paid successfully"
+msgstr ""
+
+#: templates/umbushop/login.tpl:42
+#: templates/umbushop/login_popup.tpl:50
+#: templates/umbushop/register.tpl:88
+msgid "Password"
+msgstr ""
+
+#: templates/umbushop/reset_password.tpl:6
+msgid "Password retrieval"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_delivery_radio.tpl:58
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:40
+msgid "Payment method"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:73
+msgid "Payment methods"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:47
+msgid "Payment status"
+msgstr ""
+
+#: templates/umbushop/shop/includes/category/category_toolbar.tpl:37
+msgid "Per page"
+msgstr ""
+
+#: templates/umbushop/shop/profile.tpl:42
+msgid "Personal information"
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:34
+#: templates/umbushop/callbacks/callbacks_modal.tpl:29
+#: templates/umbushop/found_less_expensive/modal_form.tpl:39
+#: templates/umbushop/one_click_order/form.tpl:65
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:33
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:78
+#: templates/umbushop/shop/includes/profile/user_data.tpl:40
+msgid "Phone number"
+msgstr ""
+
+#: templates/umbushop/forgot_password.tpl:44
+msgid "Please enter the e-mail associated with your account."
+msgstr ""
+
+#: templates/umbushop/shop/includes/search_and_brand/autocomplete.tpl:79
+msgid "Please enter two or more characters."
+msgstr ""
+
+#: templates/umbushop/category_sales.tpl:45
+#: templates/umbushop/page_sales.tpl:36
+#: templates/umbushop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 1"
+msgstr "day"
+
+#: templates/umbushop/category_sales.tpl:45
+#: templates/umbushop/page_sales.tpl:36
+#: templates/umbushop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 2"
+msgstr "days"
+
+#: templates/umbushop/category_sales.tpl:45
+#: templates/umbushop/page_sales.tpl:36
+#: templates/umbushop/shop/includes/product/product_sales.tpl:36
+msgid "pluralize day 3"
+msgstr "days"
+
+#: templates/umbushop/page_sales.tpl:43
+msgid "pluralize hour 1"
+msgstr "hour"
+
+#: templates/umbushop/page_sales.tpl:43
+msgid "pluralize hour 2"
+msgstr "hours"
+
+#: templates/umbushop/page_sales.tpl:43
+msgid "pluralize hour 3"
+msgstr "hours"
+
+#: templates/umbushop/shop/bestseller.tpl:66
+#: templates/umbushop/shop/brand.tpl:41
+#: templates/umbushop/shop/category.tpl:54
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/umbushop/shop/search.tpl:28
+msgid "pluralize item 1"
+msgstr "item"
+
+#: templates/umbushop/shop/bestseller.tpl:66
+#: templates/umbushop/shop/brand.tpl:41
+#: templates/umbushop/shop/category.tpl:54
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/umbushop/shop/search.tpl:28
+msgid "pluralize item 2"
+msgstr "items"
+
+#: templates/umbushop/shop/bestseller.tpl:66
+#: templates/umbushop/shop/brand.tpl:41
+#: templates/umbushop/shop/category.tpl:54
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:27
+#: templates/umbushop/shop/search.tpl:28
+msgid "pluralize item 3"
+msgstr "items"
+
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 1"
+msgstr "kit"
+
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 2"
+msgstr "kits"
+
+#: templates/umbushop/shop/includes/cart/order_view_summary.tpl:81
+msgid "pluralize kit 3"
+msgstr "kits"
+
+#: templates/umbushop/includes/footer.tpl:88
+msgid "Powered by "
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_delivery_radio.tpl:36
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:32
+msgid "Price"
+msgstr ""
+
+#: templates/umbushop/smart_filter/main.tpl:11
+msgid "Price range"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:19
+msgid "Price reduction"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_modal.tpl:38
+msgid "Proceed to checkout"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:16
+msgid "Product"
+msgstr ""
+
+#: templates/umbushop/shop/compare.tpl:6
+msgid "Product comparasion"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_cut.tpl:66
+#: templates/umbushop/shop/includes/product/product_intro.tpl:159
+#: templates/umbushop/shop/includes/product/product_snippet.tpl:117
+msgid "Product has been discontinued"
+msgstr ""
+
+#: templates/umbushop/found_less_expensive/modal_form.tpl:55
+msgid "Product URL"
+msgstr ""
+
+#: templates/umbushop/includes/header_profile.tpl:6
+msgid "Profile"
+msgstr ""
+
+#: templates/umbushop/components/TProperties/TProperties.php:130
+msgid "Properties"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:52
+msgid "Purchases amount"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:112
+msgid "Questions? Ask our experts"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:85
+msgid "Rating"
+msgstr ""
+
+#: templates/umbushop/category.tpl:43
+#: templates/umbushop/widgets/latest_news.tpl:32
+msgid "Read more"
+msgstr ""
+
+#: templates/umbushop/change_password.tpl:40
+msgid "Reenter new password"
+msgstr ""
+
+#: templates/umbushop/register.tpl:97
+msgid "Reenter password"
+msgstr ""
+
+#: templates/umbushop/forgot_password.tpl:71
+msgid "Remembered your password?"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_cut.tpl:75
+msgid "Remove from list"
+msgstr ""
+
+#: templates/umbushop/comments/comments_list.tpl:54
+msgid "Reply to this post"
+msgstr ""
+
+#: templates/umbushop/callbacks/callback.tpl:6
+#: templates/umbushop/callbacks/callbacks_modal.tpl:5
+msgid "Request a Call back"
+msgstr ""
+
+#: templates/umbushop/forgot_password.tpl:6
+msgid "Request new password"
+msgstr ""
+
+#: templates/umbushop/shop/bestseller.tpl:58
+#: templates/umbushop/shop/brand.tpl:33
+#: templates/umbushop/shop/category.tpl:46
+msgid "Result"
+msgstr ""
+
+#: templates/umbushop/shop/search.tpl:18
+msgid "Result for"
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:35
+msgid "Returning customer?"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:72
+#: templates/umbushop/comments/reply_form.tpl:70
+msgid "Review"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_rating.tpl:13
+msgid "Reviews"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_labels.tpl:17
+msgid "Sale"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:30
+msgid "Sale expires after"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:65
+msgid "Sales period"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:95
+msgid "Sales product list"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:103
+#: templates/umbushop/components/TProperties/assets/admin/main.tpl:4
+msgid "Save"
+msgstr ""
+
+#: templates/umbushop/change_password.tpl:51
+#: templates/umbushop/shop/includes/profile/user_data.tpl:90
+msgid "Save changes"
+msgstr ""
+
+#: templates/umbushop/shop/includes/search_and_brand/autocomplete.tpl:15
+msgid "Search by item name or number"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:55
+msgid "seconds"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:111
+#: templates/umbushop/comments/reply_form.tpl:81
+#: templates/umbushop/feedback/feedback.tpl:62
+#: templates/umbushop/feedback/feedback_modal.tpl:43
+#: templates/umbushop/forgot_password.tpl:50
+#: templates/umbushop/login.tpl:52
+#: templates/umbushop/login_popup.tpl:60
+#: templates/umbushop/register.tpl:108
+msgid "Security code"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishPopup.tpl:27
+msgid "Select a list"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:127
+#: templates/umbushop/comments/reply_form.tpl:94
+#: templates/umbushop/feedback/feedback.tpl:76
+#: templates/umbushop/feedback/feedback_modal.tpl:65
+#: templates/umbushop/found_less_expensive/modal_form.tpl:84
+#: templates/umbushop/one_click_order/form.tpl:95
+msgid "Send"
+msgstr ""
+
+#: templates/umbushop/forgot_password.tpl:63
+msgid "Send request"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_intro.tpl:205
+msgid "Share"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:58
+msgid "Shipping"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:55
+msgid "Shipping & payment"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_checkout.tpl:43
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:86
+#: templates/umbushop/shop/includes/profile/user_data.tpl:50
+msgid "Shipping address"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:32
+msgid "Shipping method"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_shipping.tpl:12
+msgid "Shipping methods"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_modal.tpl:5
+msgid "Shopping cart"
+msgstr ""
+
+#: templates/umbushop/shop/category.tpl:17
+msgid "Show filter"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:9
+msgid "Show in column"
+msgstr ""
+
+#: templates/umbushop/comments/comments_api.tpl:18
+#: templates/umbushop/forgot_password.tpl:71
+#: templates/umbushop/includes/footer_profile.tpl:4
+#: templates/umbushop/includes/header_profile.tpl:19
+#: templates/umbushop/includes/mobile_profile.tpl:3
+#: templates/umbushop/login.tpl:6
+#: templates/umbushop/login_popup.tpl:4
+#: templates/umbushop/register.tpl:130
+#: templates/umbushop/shop/cart.tpl:37
+msgid "Sign in"
+msgstr ""
+
+#: templates/umbushop/login.tpl:24
+#: templates/umbushop/login_popup.tpl:32
+#: templates/umbushop/register.tpl:28
+msgid "Sign in with"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:34
+#: templates/umbushop/includes/header_profile.tpl:39
+#: templates/umbushop/includes/mobile_profile.tpl:39
+msgid "Sign out"
+msgstr ""
+
+#: templates/umbushop/offline.tpl:4
+msgid "Site is offline"
+msgstr ""
+
+#: templates/umbushop/offline.tpl:15
+msgid "Site is temporarily unavailable"
+msgstr ""
+
+#: templates/umbushop/404.tpl:12
+msgid "Sorry, the page you’re looking for doesn’t exist!"
+msgstr ""
+
+#: templates/umbushop/shop/includes/category/category_toolbar.tpl:10
+msgid "Sort by"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_full_info.tpl:21
+msgid "Specifications"
+msgstr ""
+
+#: templates/umbushop/components/TProperties/assets/admin/main.tpl:2
+msgid "Start typing property name here"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/order_history.tpl:5
+msgid "Status"
+msgstr ""
+
+#: templates/umbushop/includes/footer.tpl:20
+#: templates/umbushop/includes/mobile_frame.tpl:4
+msgid "Store"
+msgstr ""
+
+#: templates/umbushop/feedback/feedback.tpl:42
+msgid "Subject"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:7
+msgid "Subtotal"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:46
+#: templates/umbushop/shop/includes/product/variants/radio.tpl:9
+#: templates/umbushop/shop/includes/product/variants/select.tpl:11
+#: templates/umbushop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_1"
+msgstr "points"
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:46
+#: templates/umbushop/shop/includes/product/variants/radio.tpl:9
+#: templates/umbushop/shop/includes/product/variants/select.tpl:11
+#: templates/umbushop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_2"
+msgstr "points"
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:46
+#: templates/umbushop/shop/includes/product/variants/radio.tpl:9
+#: templates/umbushop/shop/includes/product/variants/select.tpl:11
+#: templates/umbushop/system_bonus/system_bonus_product.tpl:4
+msgid "system_bonus_points_pluralize_3"
+msgstr "points"
+
+#: templates/umbushop/register_success.tpl:6
+msgid "Thank You for Registration!"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:5
+msgid "Thank you for shopping at"
+msgstr ""
+
+#: templates/umbushop/one_click_order/form.tpl:21
+msgid "Thank you for your order! Our manager will contact you as soon as possible."
+msgstr ""
+
+#: templates/umbushop/category.tpl:52
+#: templates/umbushop/category_sales.tpl:79
+#: templates/umbushop/gallery/album.tpl:70
+#: templates/umbushop/gallery/index.tpl:56
+#: templates/umbushop/shop/includes/category/category_products.tpl:31
+msgid "There are no items to display. Please come back later!"
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlist.tpl:45
+msgid "This list is empty"
+msgstr ""
+
+#: templates/umbushop/offline.tpl:16
+msgid "This site is down for maintenance. We will be back shortly, please check back again soon"
+msgstr ""
+
+#: templates/umbushop/category_sales.tpl:61
+#: templates/umbushop/page_sales.tpl:68
+msgid "to"
+msgstr ""
+
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:25
+#: templates/umbushop/components/TMenuColumn/assets/admin/main.tpl:51
+msgid "Toggle this category"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/order_history.tpl:6
+msgid "Total Price"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:21
+#: templates/umbushop/includes/header_profile.tpl:31
+#: templates/umbushop/includes/mobile_profile.tpl:33
+msgid "Tracking price"
+msgstr ""
+
+#: templates/umbushop/components/TProperties/assets/admin/main.tpl:19
+msgid "Type"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:116
+#: templates/umbushop/comments/reply_form.tpl:86
+#: templates/umbushop/feedback/feedback.tpl:67
+#: templates/umbushop/feedback/feedback_modal.tpl:48
+#: templates/umbushop/forgot_password.tpl:55
+#: templates/umbushop/login.tpl:57
+#: templates/umbushop/login_popup.tpl:65
+#: templates/umbushop/register.tpl:113
+msgid "Type the characters you see in this image."
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_intro.tpl:120
+msgid "Unavailable"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:20
+#: templates/umbushop/pricespy/spys.tpl:51
+msgid "Unsubscribe"
+msgstr ""
+
+#: templates/umbushop/system_bonus/cart_input.tpl:10
+msgid "Use points"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:29
+msgid "User goup discount"
+msgstr ""
+
+#: templates/umbushop/includes/footer.tpl:27
+#: templates/umbushop/includes/mobile_frame.tpl:6
+msgid "User menu"
+msgstr ""
+
+#: templates/umbushop/shop/includes/category/category_toolbar.tpl:63
+msgid "View"
+msgstr ""
+
+#: templates/umbushop/shop/includes/search_and_brand/autocomplete.tpl:84
+msgid "view all"
+msgstr ""
+
+#: templates/umbushop/navs/mobile_nav/level_1/container.tpl:10
+#: templates/umbushop/widgets/brands.tpl:6
+#: templates/umbushop/widgets/latest_news.tpl:9
+msgid "View all"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_buy.tpl:45
+#: templates/umbushop/shop/includes/product/product_kit_button.tpl:21
+msgid "View in Cart"
+msgstr ""
+
+#: templates/umbushop/pricespy/button.tpl:61
+msgid "View items"
+msgstr ""
+
+#: templates/umbushop/nova_poshta/nova_poshta.tpl:38
+msgid "View on the map"
+msgstr ""
+
+#: templates/umbushop/nova_poshta/nova_poshta.tpl:29
+msgid "Warehouse"
+msgstr ""
+
+#: templates/umbushop/pricespy/spys.tpl:59
+msgid "Watch list is empty"
+msgstr ""
+
+#: templates/umbushop/found_less_expensive/modal_form.tpl:59
+msgid "Web site url where you find it cheaper"
+msgstr ""
+
+#: templates/umbushop/login_popup.tpl:72
+msgid "Welcome!"
+msgstr ""
+
+#: templates/umbushop/wishlist/other_list.tpl:8
+#: templates/umbushop/wishlist/wishlist.tpl:7
+msgid "Wish list"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:17
+#: templates/umbushop/includes/mobile_profile.tpl:23
+#: templates/umbushop/wishlist/wishlist_total.tpl:7
+msgid "Wishlist"
+msgstr ""
+
+#: templates/umbushop/comments/comments_api.tpl:25
+msgid "Write a review"
+msgstr ""
+
+#: templates/umbushop/page_sales.tpl:70
+msgid "year"
+msgstr ""
+
+#: templates/umbushop/pricespy/button.tpl:42
+msgid "You are following the price changes of this item. You will receive a notification to your contact email when the product price will be changed. Check your personal account to cancel the subscription and view other items that you're following."
+msgstr ""
+
+#: templates/umbushop/system_bonus/cart_input.tpl:20
+#: templates/umbushop/system_bonus/user_profile.tpl:22
+msgid "You can use your points to get discount for purchasing. Each 1 point equals"
+msgstr ""
+
+#: templates/umbushop/shop/cart.tpl:57
+#: templates/umbushop/shop/includes/cart/cart_modal.tpl:21
+msgid "You have no items in your shopping cart"
+msgstr ""
+
+#: templates/umbushop/shop/compare.tpl:36
+msgid "You have no items to compare"
+msgstr ""
+
+#: templates/umbushop/login_popup.tpl:73
+msgid "You have successfully authenticated as "
+msgstr ""
+
+#: templates/umbushop/comments/comments_api.tpl:18
+msgid "You have to log in to leave a comment."
+msgstr ""
+
+#: templates/umbushop/shop/profile.tpl:63
+msgid "You haven't made any orders yet"
+msgstr ""
+
+#: templates/umbushop/login_popup.tpl:21
+msgid "You must login to add items to your wishlist"
+msgstr ""
+
+#: templates/umbushop/shop/includes/product/product_kit.tpl:76
+msgid "You save"
+msgstr ""
+
+#: templates/umbushop/system_bonus/system_bonus_product.tpl:8
+msgid "You will earn"
+msgstr ""
+
+#: templates/umbushop/shop/report_appearance.tpl:14
+msgid "You'll receive a one email when this product arrives in stock"
+msgstr ""
+
+#: templates/umbushop/includes/footer_profile.tpl:11
+#: templates/umbushop/includes/header_profile.tpl:27
+#: templates/umbushop/includes/mobile_profile.tpl:10
+#: templates/umbushop/shop/profile.tpl:6
+msgid "Your Account"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:96
+msgid "Your card was successfully applied"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:31
+#: templates/umbushop/comments/reply_form.tpl:26
+msgid "Your comment has been successfully published"
+msgstr ""
+
+#: templates/umbushop/comments/main_form.tpl:29
+#: templates/umbushop/comments/reply_form.tpl:24
+msgid "Your comment will be published after moderation"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/cart_total.tpl:24
+msgid "Your discount"
+msgstr ""
+
+#: templates/umbushop/feedback/feedback.tpl:16
+#: templates/umbushop/feedback/feedback_modal.tpl:13
+#: templates/umbushop/found_less_expensive/modal_form.tpl:24
+msgid "Your message has been sent"
+msgstr ""
+
+#: templates/umbushop/shop/includes/cart/order_view_info.tpl:5
+msgid "Your order details are below"
+msgstr ""
+
+#: templates/umbushop/shop/order_view.tpl:5
+msgid "Your order is confirmed"
+msgstr ""
+
+#: templates/umbushop/shop/includes/profile/discount_info.tpl:19
+msgid "Your personal discount"
+msgstr ""
+
+#: templates/umbushop/shop/includes/search_and_brand/autocomplete.tpl:74
+msgid "Your search did not match any products. Make sure all words are spelled correctly."
+msgstr ""
+
+#: templates/umbushop/wishlist/wishlist.tpl:58
+msgid "Your wishlist is empty"
+msgstr ""

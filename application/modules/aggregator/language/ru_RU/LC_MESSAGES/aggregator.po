@@ -1,0 +1,127 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-12 12:50+0300\n"
+"PO-Revision-Date: 2017-05-12 12:50+0300\n"
+"Last-Translator:  <>\n"
+"Language-Team:  <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;lang\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:99
+msgid "Adult products"
+msgstr "для взрослых"
+
+#: application/modules/aggregator/module_info.php:6
+msgid "Aggregator"
+msgstr "Агрегатор"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:105
+#: application/modules/aggregator/src/Systems/PriceUA.php:71
+#: application/modules/aggregator/src/Systems/NadaviNET.php:99
+#: application/modules/aggregator/src/Systems/PromUA.php:59
+#: application/modules/aggregator/src/Systems/Hotline.php:90
+msgid "apply discount"
+msgstr "применить скидки"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:84
+#: application/modules/aggregator/src/Systems/PriceUA.php:56
+#: application/modules/aggregator/src/Systems/NadaviNET.php:84
+#: application/modules/aggregator/src/Systems/PromUA.php:44
+#: application/modules/aggregator/src/Systems/Hotline.php:75
+msgid "Brands"
+msgstr "Бренды"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:92
+#: application/modules/aggregator/src/Systems/PriceUA.php:64
+#: application/modules/aggregator/src/Systems/NadaviNET.php:92
+#: application/modules/aggregator/src/Systems/PromUA.php:52
+#: application/modules/aggregator/src/Systems/Hotline.php:83
+msgid "Categories"
+msgstr "Категории"
+
+#: application/modules/aggregator/assets/admin/savefile.tpl:4
+msgid "File created"
+msgstr "Файл создан"
+
+#: application/modules/aggregator/assets/admin/savefile.tpl:3
+msgid "File path"
+msgstr "URL файла"
+
+#: application/modules/aggregator/assets/admin/savefile.tpl:5
+msgid "File size"
+msgstr "Размер файла"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:64
+#: application/modules/aggregator/src/Systems/NadaviNET.php:61
+#: application/modules/aggregator/src/Systems/Hotline.php:51
+msgid "Manufacturer warranty, months"
+msgstr "Гарантия производителя, в месяцах"
+
+#: application/modules/aggregator/src/Systems/NadaviNET.php:30
+msgid "Nadavi.NET"
+msgstr ""
+
+#: application/modules/aggregator/assets/admin/select.tpl:6
+#: application/modules/aggregator/assets/admin/product_select.tpl:5
+msgid "No selected"
+msgstr "Не выбрано"
+
+#: application/modules/aggregator/assets/admin/main.tpl:6
+msgid "Price aggregators management"
+msgstr "Управление агрегаторами"
+
+#: application/modules/aggregator/src/Systems/PriceUA.php:17
+msgid "Price.UA"
+msgstr ""
+
+#: application/modules/aggregator/src/Systems/PromUA.php:16
+msgid "PromUA"
+msgstr ""
+
+#: application/modules/aggregator/assets/admin/savefile.tpl:2
+msgid "Recently you have saved"
+msgstr ""
+
+#: application/modules/aggregator/assets/admin/savefile.tpl:2
+msgid "Recently you have saved <b>XLS</b> file"
+msgstr "Недавно вы создали <b>XLS</b> файл"
+
+#: application/modules/aggregator/assets/admin/main.tpl:11
+msgid "Save"
+msgstr "Сохранить"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:70
+#: application/modules/aggregator/src/Systems/PriceUA.php:42
+#: application/modules/aggregator/src/Systems/NadaviNET.php:67
+#: application/modules/aggregator/src/Systems/Hotline.php:57
+msgid "Seller warranty, months"
+msgstr "Гарантия продавца, в месяцах"
+
+#: application/modules/aggregator/admin.php:104
+msgid "Settings in the aggregator has been saved"
+msgstr "Настройки в агрегаторе были сохранены"
+
+#: application/modules/aggregator/src/Systems/YMarket.php:58
+#: application/modules/aggregator/src/Systems/NadaviNET.php:55
+#: application/modules/aggregator/src/Systems/Hotline.php:45
+msgid "Сountry of product manufacture"
+msgstr "Страна производства"
+
+#: application/modules/aggregator/src/Systems/PromUA.php:25
+msgid "Тип продаж"
+msgstr ""
+
+#: application/modules/aggregator/src/Systems/YMarket.php:31
+msgid "Яндекс маркет"
+msgstr "Яндекс маркет"

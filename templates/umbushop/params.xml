@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template label='Umbushop' name='UMBU-shop' type="shop" version="0.1">
+
+	<screenshots>
+		<screenshot url="/templates/umbushop/_install/screens/main.jpg" main="1" />
+	</screenshots>
+
+	<components>
+		<component handler="TProperties"></component>
+		<component handler="TMenuColumn"></component>
+	</components>
+
+	<brands>
+		<image width="300" height="200"></image>
+	</brands>
+
+</template>
