@@ -1,5 +1,5 @@
 <!-- header.tpl -->
-
+{$category = $CI->load->module('cfcm')->connect_fields($category, 'category')}
 <div class="{if strip_tags($category.field_head_h) == 'Giant'}page-header-giant{else:}{if strip_tags($category.field_head_h) == 'Large'}page-header-large{else:}{if strip_tags($category.field_head_h) == 'Largest'}page-header-largest{else:}{if strip_tags($category.field_head_h) == 'Small'}page-header-small{else:}page-header{/if}{/if}{/if}{/if}{if strip_tags($category.field_bgfixed) == 'ON'} background-fixed{/if}{if strip_tags($category.field_cover) == 'Fill'} cover{/if}{if strip_tags($category.field_cover) == 'Fit'} contain{/if}{if strip_tags($category.field_cover) == 'Original'} origin{/if} {strip_tags($category.field_bgposition)}" data-background="{$category.image}" data-overlay-color="{if $category.field_bgcolor}{strip_tags($category.field_bgcolor)}{else:}#000{/if}" data-overlay-opacity="{if strip_tags($category.field_overlay) == 'OFF'}0{else:}{strip_tags($category.field_overlay)}{/if}">
 	<div class="container">
 		<div class="col-sm-offset-1 col-sm-10">

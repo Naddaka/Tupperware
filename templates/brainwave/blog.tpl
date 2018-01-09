@@ -45,6 +45,7 @@
 	</div>
 </div>
  <!--  include follow_soc -->{include_tpl('follow_soc')}
+ {$category = $CI->load->module('cfcm')->connect_fields($category, 'category')}
 {if strip_tags($category.field_contactform) == 'ON'}
  <!--  include contact_order -->{include_tpl('contact_order')}
 {/if} 

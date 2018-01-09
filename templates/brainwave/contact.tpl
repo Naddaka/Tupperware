@@ -21,7 +21,7 @@
                 </div>
               <div class="col-sm-4 col-sm-offset-1 fadeInUp wow" data-wow-delay="0.1s">
                     {$page.field_accent1text}
-                    {$category.field_accent1text}
+                    {$category.field_accent1text} <!-- Нужно разобраться, что делает этот кусок кода -->
               </div>
             </div>
             

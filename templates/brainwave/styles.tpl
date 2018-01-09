@@ -1,6 +1,6 @@
 <!--Шаблон для подключение стилей (styles.tpl), которые настраиваются в main.tpl -->
 {$category = get_category(76)}
-{$item = $CI->load->module('cfcm')->connect_fields($category, 'category')}
+{$category = $CI->load->module('cfcm')->connect_fields($category, 'category')}
 
 {literal}
 <style>

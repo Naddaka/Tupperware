@@ -95,7 +95,7 @@
     {literal}
     <script>
         $('#slides').superslides({
-            play: {/literal}{strip_tags($category.field_slidedelay)}{literal},
+            play: {/literal}{strip_tags($item.field_slidedelay)}{literal},
             animation: '{/literal}{strip_tags($category.field_slideAnimation)}{literal}',
         });
         $( '.content .display-tc' ).css({width: $(window).width(), height: $(window).height()});
