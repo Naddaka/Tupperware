@@ -2,7 +2,7 @@
 
 /**
  * |----------------------------------------|
- * |paginator VARIABLES AND DEFAULT VALUES:|
+ * |PAGINATION VARIABLES AND DEFAULT VALUES:|
  * |----------------------------------------|
  *
  * ['base_url'] = ''; // The page we are linking to
@@ -18,7 +18,7 @@
  * ['prev_link'] = '<span class="text-el">←</span> <span class="prev-page">Предыдущая страница</span>';
  * ['last_link'] = '<span class="last-page">&raquo;</span>';
  * ['uri_segment'] = 3;
- * ['full_tag_open'] = '<div class="paginator"><ul class="f-s_0">';
+ * ['full_tag_open'] = '<div class="pagination"><ul class="f-s_0">';
  * ['full_tag_close'] = '</ul></div>';
  * ['first_tag_open'] = '<li>';
  * ['first_tag_close'] = '<li class="clear-pag-item">...</li></li>';
@@ -45,42 +45,42 @@
  */
 
 /**
- *Config paginator
+ *Config pagination
  */
-$local_theme_url = &get_instance()->template->template_vars[THEME];
 
-$paginationConfig['num_links'] = 2;
-$paginationConfig['page_query_string'] = true;
-$total_items = ceil($paginationConfig['total_rows'] / $paginationConfig['per_page']);
-
-/* paginator wrapper */
-$paginationConfig['full_tag_open'] = '<ul class="paginator">';
-$paginationConfig['full_tag_close'] = '</ul>';
+/* Pagination wrapper */
+$paginationConfig['full_tag_open'] = '<nav><ul class="pagination">';
+$paginationConfig['full_tag_close'] = '</ul></nav>';
 
 /* First page */
-$paginationConfig['first_tag_open'] = '<li class="paginator__item paginator__item--first">';
-$paginationConfig['first_link'] = '1';
-$paginationConfig['first_tag_close'] = '</li><li class="paginator__item paginator__item--ellipsis">...</li>';
+$paginationConfig['first_tag_open'] = '<li><a>';
+$paginationConfig['first_link'] = '1...';
+$paginationConfig['first_tag_close'] = '</a></li>';
 
 /* Previous page */
-$paginationConfig['prev_tag_open'] = '<li class="paginator__item paginator__item--prev">';
-$paginationConfig['prev_link'] = '<i class="paginator__arrow paginator__arrow--left"><svg class="svg-arrow" viewBox="0 0 15 6"><polygon points="15,3 12,0 12,2 0,2 0,4 12,4 12,6"/></svg></i>';
+$paginationConfig['prev_tag_open'] = '<li>';
+$paginationConfig['prev_link'] = '<span aria-hidden="true"><i class="fa fa-angle-left"></i></span>';
 $paginationConfig['prev_tag_close'] = '</li>';
 
 /* Page number */
-$paginationConfig['num_tag_open'] = '<li class="paginator__item">';
+$paginationConfig['num_tag_open'] = '<li>';
 $paginationConfig['num_tag_close'] = '</li>';
 
 /* Page number active */
-$paginationConfig['cur_tag_open'] = '<li class="paginator__item paginator__item--active">';
-$paginationConfig['cur_tag_close'] = '</li>';
+$paginationConfig['cur_tag_open'] = '<li class="active"><a>';
+$paginationConfig['cur_tag_close'] = '</a></li>';
 
 /* Next page */
-$paginationConfig['next_tag_open'] = '<li class="paginator__item paginator__item--next">';
-$paginationConfig['next_link'] = '<i class="paginator__arrow paginator__arrow--right"><svg class="svg-arrow" viewBox="0 0 15 6"><polygon points="15,3 12,0 12,2 0,2 0,4 12,4 12,6"/></svg></i>';
+$paginationConfig['next_tag_open'] = '<li>';
+$paginationConfig['next_link'] = '<span aria-hidden="true"><i class="fa fa-angle-right"></i></span>';
 $paginationConfig['next_tag_close'] = '</li>';
 
 /* Last page */
-$paginationConfig['last_tag_open'] = '<li class="paginator__item paginator__item--ellipsis">...</li><li class="paginator__item paginator__item--last">';
-$paginationConfig['last_link'] = $total_items;
+$paginationConfig['last_tag_open'] = '<li>';
+$paginationConfig['last_link'] = '... '.ceil($paginationConfig['total_rows']/$paginationConfig['per_page']);
 $paginationConfig['last_tag_close'] = '</li>';
+
+
+/* Configuration */
+$paginationConfig['num_links'] = 2;
+$paginationConfig['page_query_string'] = true;

@@ -1,108 +1,105 @@
+<!--Общий шаблон HEAD и BODY -->
 <!DOCTYPE html>
 <html lang="{current_language()}">
 <head>
-
-  <!-- Page meta params. Should always be placed before any others head info -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Meta data -->
-  <title>{$site_title}</title>
-  <meta name="description" content="{$site_description}">
-  <meta name="keywords" content="{$site_keywords}">
-  <meta name="generator" content="ImageCMS">
-
-  <!-- Final compiled and minified stylesheet -->
-  <!--
-  * !WARNING! Do not modify final.min.css file! It has been generated automatically
-  * All changes will be lost when sources are regenerated!
-  * Use Sass files _src/scss instead. Read more here http://docs.imagecms.net/rabota-s-shablonom-multishop/rabota-s-css-i-javasctipt-dlia-razrabotchikov
-  -->
-  <link rel="stylesheet" href="{$THEME}_css/final.min.css">
-
-  <!--
-  * Uncomment this file if you want to put custom styles and do not want to use Sass and Gulp
-  -->
-  <!-- <link rel="stylesheet" href="{$THEME}_css/custom.css"> -->
-
-  <!-- Shortcut icons -->
-  <link rel="shortcut icon" href="{siteinfo('siteinfo_favicon_url')}" type="image/x-icon">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{$site_title}</title>
+{include_tpl('favicon')}
+<meta name="theme-color" content="#ffffff">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+{include_tpl('loader')}
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!-- Bootstrap -->
+<link href="{$THEME}css/bootstrap.css?v3.3.5" rel="stylesheet" type="text/css" title="">
+<!-- Bootstrap -->
+<link href="{$THEME}css/animate.css?v1.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Font Awesome -->
+<link href="{$THEME}css/font-awesome.css?v4.4.0" rel="stylesheet" type="text/css" title="">
+<!-- Font Et-line -->
+<link href="{$THEME}css/et-line.css?v1.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Font Simple line -->
+<link href="{$THEME}css/simple-line-icons.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Font Elegant -->
+<link href="{$THEME}css/elegant-font.css?v1.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Owl carousel default style -->
+<link href="{$THEME}css/owl.carousel.css?v2.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Magnific Popup default style -->
+<link href="{$THEME}css/magnific-popup.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<!-- Main css file -->
+<link href="{$THEME}css/style.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<link href="{$THEME}css/naddaka.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<link href="{$THEME}css/landing.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<link href="{$THEME}css/adaptive.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+<link href="{$THEME}css/project.css?v=1.0.0" rel="stylesheet" type="text/css" title="">
+{include_tpl('styles')}
 </head>
-<body class="page">
+<body class="load display-h">
+    <div class="wrapper">
+<!-- Подключение меню (menu.tpl) --> 
+        {include_tpl('menu')} 
 
-<!-- Main content frame -->
-<div class="page__body" data-page-pushy-container>
-  <div class="page__wrapper">
-
-    <header class="page__hgroup">
-      <!-- Header -->
-      {view('includes/header.tpl')}
-
-      <!-- Main Navigation -->
-      <div class="page__mainnav-hor hidden-xs hidden-sm">
-        <div class="page__container">
-          <!-- condition getOpenLevels() == all allows to output mega menu in case of appropriate admin settings -->
-          {if getOpenLevels() == 'all'}
-            {load_catalog_menu('navs/catalog_cols')}
-          {else:}
-            {load_catalog_menu('navs/catalog_tree')}
-          {/if}
-        </div>
-      </div>
-
-      {if $CI->core->core_data['data_type'] == 'main'}
-        <div class="page__main-banner">
-          <div class="page__container">
-            {view('includes/header_banners.tpl')}
-          </div>
-        </div>
-      {/if}
-
-    </header>
-
-    <!-- Bread Crumbs -->
-    {widget('breadcrumbs')}
-
-    <div class="page__content">
-      {$content}
+<!-- Подключение шаблонов категорий (по умолчанию category.tpl) --> 
+        {$content}     
+        
+<!--Подключение пред-подвала (prefooter.tpl) --> 
+    {include_tpl('prefooter')}
     </div>
-
-    <!-- Viewed products widget. Hidden on order page -->
-    {if $CI->core->core_data['data_type'] != 'cart'}
-      {widget('products_viewed')}
-    {/if}
-
-  </div><!-- .page__wrapper -->
-
-  <!-- Footer -->
-  <footer class="page__fgroup">
-    {view('includes/footer.tpl')}
-  </footer>
-
-</div><!-- .page__body -->
-
-<!-- Mobile slide frame -->
-<div class="page__mobile" data-page-pushy-mobile>
-  {view('includes/mobile_frame.tpl')}
-</div>
-
-<!-- Site background overlay when mobile menu is open -->
-<div class="page__overlay hidden" data-page-pushy-overlay></div>
-
-<!-- Final compiled and minified JS -->
-<script src="{$THEME}_js/vendor.min.js"></script>
-<script src="{$THEME}_js/final.min.js"></script>
-<!--
-* Uncomment this file if you want to put custom styles and do not want to use Gulp build
--->
-<!-- <script src="{$THEME}_js/custom.js"></script> -->
-<!-- Social networks login module styles init -->
-{if array_key_exists('socauth', $modules)}
-  {tpl_register_asset('socauth/css/style.css', 'before')}
-  {if !$CI->dx_auth->is_logged_in()}
-    {tpl_register_asset('socauth/js/socauth.js', 'after')}
-  {/if}
-{/if}
+    <div class="page-loader">
+        <div class="preloader loading"> <span class="slice"></span> <span class="slice"></span> <span class="slice"></span> <span class="slice"></span> <span class="slice"></span> <span class="slice"></span> </div>
+    </div>
+    <!--Подключение подвала (footer.tpl) --> 
+    {include_tpl('footer')} 
+    <!-- jQuery -->
+    <script src="{$THEME}js/jquery.min.js?v=1.11.2"></script>
+    <!-- jQuery UI -->
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <!-- Map library -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+    <!-- Zoom library -->
+    <script src="{$THEME}js/jquery.elevatezoom.js?v=1.0.0"></script>
+    <!-- Scroll library -->
+    <script src="{$THEME}js/wow.js?v=1.0.0"></script>
+    <script src="{$THEME}js/jquery.inview.js?v=1.0.0"></script>
+    <!-- OWL Carousel library -->
+    <script src="{$THEME}js/owl.carousel.js?v=2.0.0"></script>
+    <!-- OWL Slider library -->
+    <script src="{$THEME}js/jquery.superslides.js?v=1.0.0"></script>
+    <!-- Magnific Popup library -->
+    <script src="{$THEME}js/jquery.magnific-popup.js?v=1.0.0"></script>
+    <!-- Isotope library -->
+    <script src="{$THEME}js/imagesloaded.pkgd.js?v=2.2.0"></script>
+    <!-- Isotope library -->
+    <script src="{$THEME}js/isotope.js?v=2.2.0"></script>
+    <!-- SmoothScroll library -->
+    <script src="{$THEME}js/SmoothScroll.js?v=1.4.0"></script>
+    <!-- Text rotator library -->
+    <script src="{$THEME}js/morphext.js?v=2.4.4"></script>
+    <!-- Video bg library -->
+    <script src="{$THEME}js/jquery.backgroundvideo.js?v=1.0.0"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{$THEME}js/bootstrap.js?v=3.3.5"></script>
+    <!-- Pjax Library -->
+    <script src="{$THEME}js/jquery.pjax.js?v=1.0.0"></script>
+    <!-- Main script -->
+    <script src="{$THEME}js/script.js?v=1.0.0"></script>
+    {$category = get_category(76)}
+{$item = $CI->load->module('cfcm')->connect_fields($category, 'category')}
+    {literal}
+    <script>
+        $('#slides').superslides({
+            play: {/literal}{strip_tags($category.field_slidedelay)}{literal},
+            animation: '{/literal}{strip_tags($category.field_slideAnimation)}{literal}',
+        });
+        $( '.content .display-tc' ).css({width: $(window).width(), height: $(window).height()});
+    </script>
+    {/literal}
 </body>
 </html>
