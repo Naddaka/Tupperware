@@ -1,3 +1,5 @@
+  <link rel="stylesheet" href="{$THEME}_css/final.min.css">
+  
 {if $totalProducts > 0 || tpl_is_filtered($minPrice,  $maxPrice) || count($category->getTree()) == 0}
   <div class="content">
     <div class="content__container">
@@ -96,3 +98,8 @@
 {else:}
   {view('shop/section.tpl')}
 {/if}
+
+<!-- Final compiled and minified JS -->
+<script src="{$THEME}_js/vendor.min.js"></script>
+<script src="{$THEME}_js/final.min.js"></script>
+<!--
