@@ -163,3 +163,13 @@ if (!function_exists('_get_category_pages')) {
 }
 
 /* End of file category_helper.php */
+
+if (!function_exists('get_category')) {
+
+    function get_category($id) {
+       $ci = & get_instance();
+       $c = $ci->lib_category->get_category($id);
+       return $c;
+   }
+
+}
