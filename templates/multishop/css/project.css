@@ -1,0 +1,12 @@
+.navbar-fixed-top {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.navbar-fixed-top.scrolled {
+    background: rgba(255, 255, 255, 0.85);
+}
+.mfp-iframe-holder .mfp-content {
+    max-width: 1100px;
+}
+  .mfp-iframe-scaler iframe {
+    background: #fff;
+}
