@@ -1,1 +1,0 @@
-{view('navs/catalog_tree/level_1/item_default.tpl')}

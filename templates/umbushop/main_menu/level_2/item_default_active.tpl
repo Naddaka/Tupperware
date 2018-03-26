@@ -1,1 +1,0 @@
-<!-- main_menu/level_2/item_default_active.tpl -->

@@ -1,1 +1,0 @@
-<!-- widget/mainblocks.tpl -->

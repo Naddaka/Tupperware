@@ -1,1 +1,0 @@
-{view('navs/info_header/level_2/container.tpl')}
