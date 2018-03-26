@@ -496,7 +496,7 @@
   {$count=0}
   {foreach $img as $image}
   <li class="portfolio-item branding work-ajax-link{if $count > 4} hide6{/if}{if $count > 2} hide3{/if}">
-    <a class="{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.1s"{/if} href="{media_url('uploads/gallery')}/{$image.album_id}/{$image.file_name}{$image.file_ext}" data-title="{$image.description}" rel="group"> <img src="{media_url('uploads/gallery')}/{$image.album_id}/{$image.file_name}{$image.file_ext}?v=1.0.0" alt="{$image.description}" width="400" height="320">
+    <a class="{if strip_tags($page.field_animation) == 'OFF'}{else:}{if strip_tags($page.field_animation) == 'Default'} fadeIn{else:} {strip_tags($page.field_animation)}{/if} wow{/if}"{if strip_tags($page.field_animation) == 'OFF'}{else:} data-wow-delay="0.1s"{/if} href="{media_url('uploads/gallery')}/{$image.album_id}/{$image.file_name}{$image.file_ext}" data-title="{$image.description}" rel="group"> <img src="{media_url('uploads/gallery')}/{$image.album_id}/_thumbs/{$image.file_name}{$image.file_ext}?v=1.0.0" alt="{$image.description}" width="400" height="320">
       <div class="info-container">
         <div class="title">{$image.title}</div>
         <div class="category">{strip_tags($image.description)}</div>
